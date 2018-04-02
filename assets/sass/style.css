@@ -3742,8 +3742,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 h1 {
-  font-size: large;
   color: #09334B;
+  font-weight: bold;
 }
 
 .row {
