@@ -343,7 +343,7 @@
 }
 
 .toc-entry a:hover {
-  color: #007bff;
+  color: #0040FF;
   text-decoration: none;
 }
 
@@ -480,7 +480,7 @@
 }
 
 .bd-footer a:hover, .bd-footer a:focus {
-  color: #007bff;
+  color: #0040FF;
 }
 
 .bd-footer p {
@@ -613,7 +613,7 @@
   float: right;
   width: 4rem;
   height: 8rem;
-  background-color: #80bdff;
+  background-color: #80a0ff;
   border-radius: .25rem;
 }
 
@@ -1102,7 +1102,7 @@
 
 .swatch-blue {
   color: #fff;
-  background-color: #007bff;
+  background-color: #0040FF;
 }
 
 .swatch-indigo {
@@ -1165,9 +1165,24 @@
   background-color: #343a40;
 }
 
+.swatch-navy {
+  color: #fff;
+  background-color: #09334B;
+}
+
+.swatch-flix {
+  color: #fff;
+  background-color: #e50914;
+}
+
+.swatch-olive {
+  color: #212529;
+  background-color: #DBB858;
+}
+
 .swatch-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #0040FF;
 }
 
 .swatch-secondary {
@@ -1203,6 +1218,21 @@
 .swatch-dark {
   color: #fff;
   background-color: #343a40;
+}
+
+.swatch-navy {
+  color: #fff;
+  background-color: #09334B;
+}
+
+.swatch-flix {
+  color: #fff;
+  background-color: #e50914;
+}
+
+.swatch-olive {
+  color: #212529;
+  background-color: #DBB858;
 }
 
 .swatch-100 {
@@ -1546,12 +1576,12 @@
 
 .anchorjs-link {
   font-weight: 400;
-  color: rgba(0, 123, 255, 0.5);
+  color: rgba(0, 64, 255, 0.5);
   transition: color .16s linear;
 }
 
 .anchorjs-link:hover {
-  color: #007bff;
+  color: #0040FF;
   text-decoration: none;
 }
 
