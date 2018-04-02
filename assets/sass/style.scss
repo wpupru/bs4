@@ -1,0 +1,24 @@
+@import "../bootstrap/scss/bootstrap-reboot";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/utilities";
+
+$cnavy : #09334B;
+$nflix : #e50914;
+$olive1 : #F0CA62;
+$fz : 14px;
+h1{
+    font-size: large;
+    color: $cnavy;
+}
+.row{
+    background: $olive1;
+    p{
+        color: $cnavy;
+    }
+}
+
+.str{
+    font-size: $fz+4px;
+    color: $cnavy;
+    text-transform: uppercase;
+}
