@@ -47,6 +47,7 @@ $cyan:    #17a2b8 !default;
 $cnavy:   #09334B !default;
 $nflix:   #e50914 !default;
 $molive:  #DBB858 !default;
+$mgrey:   #f5f5f5 !default;
 
 $colors: () !default;
 $colors: map-merge((
@@ -65,7 +66,8 @@ $colors: map-merge((
   "gray-dark":  $gray-800,
   "navy":       $cnavy,
   "flix":       $nflix,
-  "olive":      $molive
+  "olive":      $molive,
+  "grey":       $mgrey
 ), $colors);
 
 $primary:       $blue !default;
@@ -79,6 +81,7 @@ $dark:          $gray-800 !default;
 $navy:          $cnavy !default;
 $flix:          $nflix !default;
 $olive:         $molive !default;
+$grey:          $mgrey !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -93,6 +96,7 @@ $theme-colors: map-merge((
   "navy":       $cnavy,
   "flix":       $nflix,
   "olive":      $molive,
+  "grey":       $mgrey
 ), $theme-colors);
 // stylelint-enable
 
@@ -582,7 +586,7 @@ $zindex-tooltip:                    1070 !default;
 // Navs
 
 $nav-link-padding-y:                .5rem !default;
-$nav-link-padding-x:                1rem !default;
+$nav-link-padding-x:                0rem !default;
 $nav-link-disabled-color:           $gray-600 !default;
 
 $nav-tabs-border-color:             $gray-300 !default;

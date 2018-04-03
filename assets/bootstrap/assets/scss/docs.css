@@ -1180,6 +1180,11 @@
   background-color: #DBB858;
 }
 
+.swatch-grey {
+  color: #212529;
+  background-color: #f5f5f5;
+}
+
 .swatch-primary {
   color: #fff;
   background-color: #0040FF;
@@ -1233,6 +1238,11 @@
 .swatch-olive {
   color: #212529;
   background-color: #DBB858;
+}
+
+.swatch-grey {
+  color: #212529;
+  background-color: #f5f5f5;
 }
 
 .swatch-100 {
