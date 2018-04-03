@@ -72,7 +72,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 [tabindex="-1"]:focus {
@@ -489,7 +489,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #f2f2f2;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1397,7 +1397,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 .table-sm th,
@@ -1608,7 +1608,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #fff;
+  color: #f2f2f2;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -1620,7 +1620,7 @@ pre code {
 }
 
 .table-dark {
-  color: #fff;
+  color: #f2f2f2;
   background-color: #212529;
 }
 
@@ -1975,7 +1975,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  box-shadow: 0 0 0 1px #f2f2f2, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
@@ -2072,7 +2072,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  box-shadow: 0 0 0 1px #f2f2f2, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
@@ -3485,7 +3485,7 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 64, 255, 0.25);
+  box-shadow: 0 0 0 1px #f2f2f2, 0 0 0 0.2rem rgba(0, 64, 255, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -3740,8 +3740,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #f2f2f2;
+  border-color: #dee2e6 #dee2e6 #f2f2f2;
 }
 
 .nav-tabs .dropdown-menu {

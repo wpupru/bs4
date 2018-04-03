@@ -9,15 +9,19 @@
 @import "../bootstrap/scss/dropdown";
 @import "../bootstrap/scss/forms";
 @import "../bootstrap/scss/type";
+@import "../bootstrap/scss/card";
 
 /* Adds imports css for components */
 @import "../sass/blocks/header";
 @import "../sass/blocks/wrapper";
+@import "../sass/blocks/card";
+@import "../sass/blocks/block";
 
 
-$cnavy : #09334B;
-$nflix : #e50914;
+$cnavy :  #09334B;
+$nflix :  #e50914;
 $olive1 : #F0CA62;
+$mgris:   #f2f2f2;
 $fz : 14px;
 
 
@@ -36,4 +40,10 @@ h1{
     font-size: $fz+4px;
     color: $cnavy;
     text-transform: uppercase;
+}
+
+.col-3{
+    h4{
+        text-transform: uppercase;
+    }
 }
